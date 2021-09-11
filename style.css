@@ -1,0 +1,90 @@
+.formstyle  
+{  
+width: 520px;  
+height: 560px;  
+margin: auto;
+margin-top: 50px;  
+border: 6px solid rgb(255, 0, 85);
+border-radius: 20px;  
+padding: 20px;
+box-shadow: 7px 13px 8px #f35252;
+
+background-image: linear-gradient(#e999ca,#fee2f8);
+} 
+#scr
+{  
+    width: 480px;  
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: right;
+    font-size:33px;
+    background-image: radial-gradient(rgb(164, 200, 214),rgb(226, 238, 123));
+    
+}
+#scr:hover{
+    background-image: linear-gradient(rgb(211, 247, 211),white);
+}
+.info{
+    text-align: center;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+ 
+.bttn-0:hover, .bttn-1:hover ,.bttn-2:hover  
+{
+    transform: scale(1.05);
+    box-shadow: 5px 10px 8px #ec8585;
+}
+.bttn-3:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 10px 8px #6f78f7;
+}
+.bttn-4:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 10px 8px #e3e639;
+
+}
+.bttn-5:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 10px 8px #3feb64;
+}
+
+
+
+.bttn-0, .bttn-1,.bttn-2,.bttn-3,.bttn-4,.bttn-5
+{
+    background-image: radial-gradient(white,rgb(138, 194, 194));
+    font-weight: bold;
+}
+
+
+.bttn-0{
+    width: 100px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.bttn-1, .bttn-2{
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.bttn-3{
+    width: 170px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.bttn-4, .bttn-5{
+    width: 244px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
